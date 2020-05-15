@@ -99,8 +99,8 @@ if __name__ == "__main__":
             speak(f"Sir, the time is {strTime}")
 
         elif 'open code' in query:
-            # codePath = "C:\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"   --> to open visual studio code
-            codePath = "C:\\Sublime Text 3\\sublime_text.exe" # to open sublime text
+            codePath = "C:\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"   #--> to open visual studio code
+            # codePath = "C:\\Sublime Text 3\\sublime_text.exe" # to open sublime text
             os.startfile(codePath)
 
         elif 'email to' in query:
